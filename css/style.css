@@ -14,5 +14,25 @@
 
  h2{
     text-align: center;
-    
+
+ }
+
+ .container{
+    width: 60%;
+    margin: auto;
+ }
+
+ img{
+    width: 100%;
+ }
+ .red-color{
+        color: red;
+        font-weight: bold;
+
+ }
+ .red{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
  }
