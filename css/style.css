@@ -1,38 +1,120 @@
- body{
-    font-family: 'Ubuntu', sans-serif;
- }
+body {
+  font-family: "Ubuntu", sans-serif;
+}
 
- h1,h2,h3,h4,h5,h6,p,a,li{
-    letter-spacing: 1px;
-    line-height: 1.4
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
 
- h1{
+h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+.red-color {
+  color: red;
+  font-weight: bold;
+}
+.red {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+.green-color {
+  color: green;
+  font-weight: bold;
+}
+.green {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #0e3464;
+  font-size: 18px;
+}
+.last{
+    font-weight: bold;
+    font-size: 33px;
     text-align: center;
-    margin: 40px 0;
- }
+}
 
- h2{
+
+.learn{
+    background-color: #0e3464;
+    color: white;
+    font-weight: bold;
+    padding: 20px 70px;
+    font-size: 20px;
+    border-radius: 12px;
+
+}
+
+.learn-div{
+    margin: 50px auto;
     text-align: center;
+}
 
- }
+li{
+    margin: 10px auto;
+}
 
- .container{
+li i{
+    margin: 5px 0;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.img{
+    width: 60%;
+   
+}
+
+.image{
     width: 60%;
     margin: auto;
- }
+}
 
- img{
-    width: 100%;
- }
- .red-color{
-        color: red;
-        font-weight: bold;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+    margin-bottom: 25px;
+}
 
- }
- .red{
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
- }
+.grid p{
+    margin: auto;
+}
+
+.grid p b{
+    font-size: 18px;
+}
+
+.grid:first-child{
+    grid-auto-flow: dense
+}
