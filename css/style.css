@@ -156,8 +156,7 @@ hr {
   margin-right: 15px;
 }
 .comment p {
-
-margin-top: 3px;
+  margin-top: 3px;
 }
 .flex {
   display: flex;
@@ -168,34 +167,132 @@ margin-top: 3px;
 }
 
 /* footer */
-footer{
-    margin-top: 40px
+footer {
+  margin-top: 40px;
 }
 footer ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
- 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-footer ul li{
-    margin: 0;
+footer ul li {
+  margin: 0;
 }
 footer div.links {
-    text-align: center;
-    margin: 3vh;
+  text-align: center;
+  margin: 3vh;
 }
 
 footer a {
-    margin: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-weight: 400;
+  margin: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
 }
 
 footer p {
-    text-align: center;
+  text-align: center;
   letter-spacing: 0.7px;
   line-height: 1;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+  h1 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .container {
+    width: 85%;
+  }
+  h1 {
+    font-size: 20px;
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    width: 80%;
+  }
+  .image {
+    width: 60%;
+    margin: auto;
+  }
+  .grid-reverse {
+    display: block;
+  }
+  .grid {
+    display: block;
+  }
+  .grid img {
+    width: 80%;
+    margin: 25px auto;
+  }
+
+  .grid-reverse img {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  .learn {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  li {
+    letter-spacing: 0.7px;
+    line-height: 1.1;
+  }
+  .green {
+    font-size: 25px;
+  }
+  .red {
+    font-size: 25px;
+  }
+  .last {
+    font-size: 25px;
+  }
+  hr {
+    width: 55%;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  .comment .flex p {
+    margin: auto 5px;
+  }
+  .comment .flex img {
+    width: 60px;
+  }
+  .flex {
+    margin: 10px 0;
+  }
+  .comment p {
+    margin: 0;
+  }
 }
