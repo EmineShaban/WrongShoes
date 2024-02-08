@@ -28,7 +28,12 @@ h2 {
   width: 60%;
   margin: auto;
 }
-
+.woman{
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+}
 img {
   width: 100%;
 }
@@ -121,4 +126,33 @@ li i{
     grid-template-columns: 300px 1fr ;
     gap: 30px;
     margin-bottom: 25px;
+}
+.title{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+hr{
+    width: 30%;
+    border-top: 1px solid #0e3464;
+    margin: 3px 0;
+
+}
+
+.name{
+    font-weight: bold;
+}
+.comment{
+    margin: 15px 0;
+}
+.comment img{
+    width: 50px;
+    margin-right: 15px;
+}
+.flex{
+    display: flex;
+}
+
+.comm img{
+    width: 100%;
 }
