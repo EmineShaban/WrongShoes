@@ -1,5 +1,6 @@
 body {
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -28,11 +29,21 @@ h2 {
   width: 60%;
   margin: auto;
 }
-.woman{
-    width: 150px;
-    float: left;
-    margin-right: 15px;
-    border-radius: 10px;
+.woman {
+  width: 150px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: #0e3464;
+  margin: 0;
+  padding: 20px 0;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
+  color: white;
+  margin-bottom: 25px;
 }
 img {
   width: 100%;
@@ -63,96 +74,128 @@ a {
   color: #0e3464;
   font-size: 18px;
 }
-.last{
-    font-weight: bold;
-    font-size: 33px;
-    text-align: center;
+.last {
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
 }
 
-
-.learn{
-    background-color: #0e3464;
-    color: white;
-    font-weight: bold;
-    padding: 20px 70px;
-    font-size: 20px;
-    border-radius: 12px;
-
+.learn {
+  background-color: #0e3464;
+  color: white;
+  font-weight: bold;
+  padding: 20px 70px;
+  font-size: 20px;
+  border-radius: 12px;
 }
 
-.learn-div{
-    margin: 50px auto;
-    text-align: center;
+.learn-div {
+  margin: 50px auto;
+  text-align: center;
 }
 
-li{
-    margin: 10px auto;
+li {
+  margin: 10px auto;
 }
 
-li i{
-    margin: 5px 0;
-    font-size: 18px;
-    margin-right: 8px;
+li i {
+  margin: 5px 0;
+  font-size: 18px;
+  margin-right: 8px;
 }
 
-.img{
-    width: 60%;
-   
+.img {
+  width: 60%;
 }
 
-.image{
-    width: 40%;
-    margin: auto;
+.image {
+  width: 40%;
+  margin: auto;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 30px;
-    margin-bottom: 25px;
-    
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 30px;
+  margin-bottom: 25px;
 }
 
-.grid p{
-    margin: auto;
+.grid p {
+  margin: auto;
 }
 
-.grid p b{
-    font-size: 18px;
+.grid p b {
+  font-size: 18px;
 }
 
-.grid-reverse{
-    display: grid;
-    grid-template-columns: 300px 1fr ;
-    gap: 30px;
-    margin-bottom: 25px;
+.grid-reverse {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 30px;
+  margin-bottom: 25px;
 }
-.title{
-    font-size: 23px;
-    font-weight: bold;
-    margin-bottom: 0;
+.title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
-hr{
-    width: 30%;
-    border-top: 1px solid #0e3464;
-    margin: 3px 0;
+hr {
+  width: 30%;
+  border-top: 1px solid #0e3464;
+  margin: 3px 0;
+}
 
+.name {
+  font-weight: bold;
+}
+.comment {
+  margin: 15px 0;
+}
+.comment img {
+  width: 50px;
+  margin-right: 15px;
+}
+.comment p {
+
+margin-top: 3px;
+}
+.flex {
+  display: flex;
 }
 
-.name{
-    font-weight: bold;
+.comm img {
+  width: 100%;
 }
-.comment{
-    margin: 15px 0;
+
+/* footer */
+footer{
+    margin-top: 40px
 }
-.comment img{
-    width: 50px;
-    margin-right: 15px;
-}
-.flex{
+footer ul {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+footer ul li{
+    margin: 0;
+}
+footer div.links {
+    text-align: center;
+    margin: 3vh;
 }
 
-.comm img{
-    width: 100%;
+footer a {
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+footer p {
+    text-align: center;
+  letter-spacing: 0.7px;
+  line-height: 1;
 }
